@@ -8,6 +8,8 @@
 #include "boards/mcu/rak11300/spi_board.h"
 #elif defined(ARDUINO_ARCH_RP2040)
 #include "boards/mcu/rp2040/spi_board.h"
+#elif defined(RAK11720)
+#include "boards/mcu/rak11720/spi_board.h"
 #else
 #pragma error "Board not supported"
 #endif
